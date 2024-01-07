@@ -1,0 +1,55 @@
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+    }
+
+    
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        background-color: #5988FF;
+        color: #D6FF6B;
+    }
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        animation: color-change 3s infinite;
+    }
+
+    h3 {
+        color: #000000;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+    }
+
+    h4 {
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        animation: color-change 3s infinite;
+    }
+
+    ul {
+        color: #D6FF6B;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    p {
+        font-size: 18px;
+    }
